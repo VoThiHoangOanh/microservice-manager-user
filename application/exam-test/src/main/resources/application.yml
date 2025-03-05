@@ -1,0 +1,13 @@
+spring:
+  main:
+    lazy-initialization: true
+    allow-bean-definition-overriding: true
+  application:
+    name: classroom_service
+  data:
+    mongodb:
+      uri: ''
+      auto-index-creation: true
+
+server:
+  port: 8083

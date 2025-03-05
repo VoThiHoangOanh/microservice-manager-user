@@ -1,0 +1,14 @@
+spring:
+  main:
+    lazy-initialization: true
+    allow-bean-definition-overriding: true
+  application:
+    name: user_service
+  data:
+    mongodb:
+      uri: ''
+      auto-index-creation: true
+
+server:
+  port: 8081
+
